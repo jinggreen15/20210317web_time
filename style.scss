@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+
+body {
+    height: 100vh;
+    // 背景漸層放射狀(顏色1,顏色2)
+    background: radial-gradient(rgb(17, 155, 174), rgb(4, 35, 48));
+}
+
+#clock {
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 0 0 10px #77bbff;
+    height: 100vh;
+    line-height: 100vh;
+};   
